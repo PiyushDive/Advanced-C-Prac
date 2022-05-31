@@ -1,3 +1,7 @@
+/* Write 'C' program to find maximum number from an array of n intgers.
+    15 marks
+*/
+
 #include<stdio.h>
 int maximum(int arr[], int n){
     int max = 0;

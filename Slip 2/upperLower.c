@@ -1,3 +1,7 @@
+/* Write a 'C' program to accept a character and check if it is uppercase or lowercase
+    5 marks
+*/
+
 #include<stdio.h>
 void main(){
     char a;

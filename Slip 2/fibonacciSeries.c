@@ -1,3 +1,7 @@
+/* write a 'C' program to display n terms of fibonacci series
+    10 marks
+*/
+
 #include<stdio.h>
 void main(){
     int n;
