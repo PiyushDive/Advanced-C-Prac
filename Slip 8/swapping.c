@@ -1,4 +1,4 @@
-/* Write a C program for swapping two numbers using pointers
+/* Write a C program to interchange two numbers using pointers
     5 marks
 */
 
@@ -16,3 +16,5 @@ void main(){
     printf("After swapping: %d %d\n", *a, *b);
 
 }
+
+// interchange means swapping
