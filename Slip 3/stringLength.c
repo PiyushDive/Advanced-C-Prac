@@ -1,5 +1,6 @@
 /* Write a program to calculate length of string using standard library
-function. - 5m
+function.
+    5 marks
 */
 
 #include<stdio.h>
