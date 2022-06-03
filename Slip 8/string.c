@@ -24,3 +24,4 @@ void main(){
     printf("Total vowels: %d\n", vowel);
     printf("Total consonats: %d\n", consonant);
 }
+
