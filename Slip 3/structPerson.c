@@ -16,20 +16,27 @@ struct person
         int day;
         int month;
         int year;
-    }b;
-}p;
+    }b[100];
+}p[100];
 
 void main(){
-    
-    printf("Enter name: ");
-    scanf("%s", &p.name);
-    printf("Enter address: ");
-    scanf("%s", &p.address);
-    printf("Enter birthdate (dd,mm,yy): ");
-    scanf("%d %d %d", &p.b.day, &p.b.month, &p.b.year);
-    
-    printf("\nName: %s\n", p.name);
-    printf("Address: %s\n", p.address);
-    printf("Birthdate: %d %d %d\n", p.b.day, p.b.month, p.b.year);
+    int n;
+    printf("Enter limit: ");
+    scanf("%d", &n);
 
+    for(int i=0; i<n; i++){
+
+        printf("Enter name: ");
+        scanf("%s", &p[i].name);
+        printf("Enter address: ");
+        scanf("%s", &p[i].address);
+        printf("Enter birthdate (dd,mm,yy): ");
+        scanf("%d %d %d", &p[i].b[i].day, &p[i].b[i].month, &p[i].b[i].year);
+    }
+
+    for(int i=0; i<n; i++){
+        printf("\nName: %s\n", p[i].name);
+        printf("Address: %s\n", p[i].address);
+        printf("Birthdate: %d %d %d\n", p[i].b[i].day, p[i].b[i].month, p[i].b[i].year);
+    }
 }
